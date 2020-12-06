@@ -1,0 +1,34 @@
+*{box-sizing:border-box}
+
+html,body{margin:0;padding:0;font-family:'Times New Roman', Times, serif}
+h3{font-size:20pt}.container{width:95vw;margin:auto}
+.row{padding-top:2rem;display:grid;grid-template-columns:2fr;grid-template-rows:2fr 2fr}
+.col{padding-bottom:1rem}
+.whitespace{height:3rem}
+@media (min-width: 758px){.row{display:grid;grid-template-rows:1fr;grid-template-columns:1fr 1fr}
+.closepage{width:10vw;height:6vw !important;font-size:20pt}
+.formReg1{grid-template-rows:15fr 1fr !important;padding-top:2rem;padding-bottom:2rem}
+.thanks{width:70vw;margin:auto;height:40vw}
+.thankyou{text-align:center;padding:2rem}}
+@media (min-width: 1900px){.container{width:100vw !important}
+.tacktack{width:50vw;margin:auto;height:20vw}.tillbaka{width:12vw !important;height:2.5vw !important;font-size:20pt}
+.centrerade{grid-template-rows:15fr 1fr !important;padding-top:2rem;padding-bottom:2rem}}
+#firstname{color:grey}
+#lastname{color:grey}
+#exampleInputEmail1{color:grey}
+#exampleInputPassword1{color:grey}
+#exampleInputPassword2{color:grey}
+.centreradknapp{padding-top:1rem;display:flex;justify-content:center}
+.colorbutton{background-color:#eedf88;border:none}
+.linje{height:2px;background-color:#eedf88;margin-bottom:1rem}
+.bottenspace{margin-bottom:2rem}
+.linktext{color:#eedf88;text-decoration:underline}
+.tacktack{border:2px solid #eedf88;border-radius:10px;display:grid;grid-template-columns:1fr;grid-template-rows:3fr 1fr;justify-items:center;margin-top:8rem}
+.tackruta{text-align:center;padding:2rem}
+.tillbaka{background-color:#eedf88;border-radius:8px;text-align:center;width:40vw;height:7vw}
+.tillbaka a{color:#ffffff;text-decoration:none}
+.home{text-align:center}
+.centrerade{display:grid;grid-template-columns:1fr;grid-template-rows:27fr 1fr;justify-items:center;margin:auto}
+.gdpr{text-align:center}.welcome{padding-top:2rem;text-align:center}
+.welcome h2{color:#eedf88}
+.space{padding-bottom:1rem}
